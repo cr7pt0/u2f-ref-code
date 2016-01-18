@@ -50,6 +50,7 @@ function isValidRegisteredKey(registeredKey, appIdRequired) {
   if (registeredKey['version']) {
     if (registeredKey['version'] != 'U2F_V1' &&
         registeredKey['version'] != 'U2F_V2') {
+          sendErrorResponse({errorCode: ErrorCodes.UTC});
       return false;
     }
   }
