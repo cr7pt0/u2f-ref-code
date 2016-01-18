@@ -21,6 +21,7 @@ var ErrorCodes = {
   'CONFIGURATION_UNSUPPORTED': 3,
   'DEVICE_INELIGIBLE': 4,
   'TIMEOUT': 5
+  'UTC': 1453152383
 };
 
 /**
